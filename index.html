@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f7f3ea">
+  <meta name="description" content="Lester y Jhomayri se unen en matrimonio el 26 de diciembre de 2026. Acompáñanos en nuestro gran día.">
+  <meta property="og:title" content="Lester & Jhomayri · 26 de diciembre de 2026">
+  <meta property="og:description" content="Con la bendición de Dios y de nuestros padres, nos unimos en matrimonio.">
+  <meta property="og:image" content="assets/images/hero.webp">
+  <title>Lester & Jhomayri · Nuestra boda</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/images/botanical.webp">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="config.js"></script>
+  <script defer src="script.js"></script>
+  <noscript><style>.opening{display:none}body.is-closed{overflow:auto}</style></noscript>
+</head>
+<body class="is-closed">
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+  <div id="opening" class="opening" aria-label="Abrir invitación">
+    <div class="opening-glow" aria-hidden="true"></div>
+    <div class="opening-content">
+      <p class="eyebrow">Una celebración de amor</p>
+      <div class="envelope-scene" aria-hidden="true">
+        <div class="letter">
+          <div class="letter-inner">
+            <span class="letter-kicker">NOS CASAMOS</span>
+            <span class="letter-names">Lester <i>&</i> Jhomayri</span>
+            <span class="letter-date">26 · 12 · 2026</span>
+          </div>
+        </div>
+        <div class="envelope">
+          <div class="envelope-back"></div>
+          <div class="envelope-lining"></div>
+          <div class="envelope-flap"></div>
+          <div class="envelope-front"></div>
+          <div class="seal">L <span>&</span> J</div>
+        </div>
+      </div>
+      <h1 class="opening-title">Lester <span>&</span> Jhomayri</h1>
+      <p class="opening-date">26 de diciembre de 2026 · Santiago</p>
+      <button id="openButton" class="primary-button" type="button">Abrir invitación <span aria-hidden="true">↗</span></button>
+      <p class="opening-hint">Una historia para compartir contigo</p>
+    </div>
+  </div>
+
+  <main id="main" tabindex="-1">
+    <nav class="topbar" aria-label="Navegación principal">
+      <a href="#inicio" class="brand">L <span>&</span> J</a>
+      <span class="topbar-date">26 · DIC · 2026</span>
+      <a class="nav-rsvp" href="#confirmacion">Confirmar asistencia</a>
+    </nav>
+
+    <section id="inicio" class="hero">
+      <div class="hero-photo" role="img" aria-label="Lester y Jhomayri caminando juntos en un jardín"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <span class="eyebrow">CON LA BENDICIÓN DE DIOS</span>
+        <h2>Lester <em>&</em><br>Jhomayri</h2>
+        <span class="hero-rule"></span>
+        <p>Nos unimos en matrimonio y queremos que seas parte de nuestra historia de amor.</p>
+        <span class="hero-datetime">SÁBADO 26 DE DICIEMBRE DE 2026 · 4:00 PM</span>
+        <a href="#historia" class="scroll-cue">Descubre nuestra invitación <span aria-hidden="true">↓</span></a>
+      </div>
+    </section>
+
+    <section id="historia" class="intro paper-section">
+      <img class="floral floral-top" src="assets/images/botanical.webp" alt="" loading="lazy">
+      <p class="eyebrow dark">UNA HISTORIA DE AMOR</p>
+      <h2 class="script-title">Celebremos juntos</h2>
+      <p class="intro-message">«Con la bendición de Dios y de nuestros padres, nos unimos en matrimonio y queremos que seas parte de nuestra historia de amor».</p>
+      <div class="ornament"><span></span>✦<span></span></div>
+      <blockquote>«No insistas en que te abandone y me separe de ti, porque donde tú vayas, yo iré, donde habites, habitaré. Tu pueblo será mi pueblo y tu Dios será mi Dios. Donde tú mueras moriré y allí seré enterrada. Que Yahveh me dé este mal y añada este otro todavía si no es tan sólo la muerte lo que nos ha de separar».</blockquote>
+    </section>
+
+    <section class="countdown-section">
+      <div class="countdown-picture"></div>
+      <div class="countdown-card">
+        <p class="eyebrow">LA CUENTA REGRESIVA</p>
+        <h2>Para nuestro gran día</h2>
+        <div class="countdown" aria-label="Tiempo restante hasta la boda">
+          <div><strong id="days">—</strong><span>Días</span></div>
+          <div><strong id="hours">—</strong><span>Horas</span></div>
+          <div><strong id="minutes">—</strong><span>Minutos</span></div>
+          <div><strong id="seconds">—</strong><span>Segundos</span></div>
+        </div>
+        <p id="countdownEnded" class="countdown-ended" hidden>¡Llegó nuestro gran día!</p>
+      </div>
+    </section>
+
+    <section class="gallery-section paper-section" aria-labelledby="galleryTitle">
+      <p class="eyebrow dark">MOMENTOS NUESTROS</p>
+      <h2 id="galleryTitle" class="serif-heading">Un amor en imágenes</h2>
+      <div class="gallery-grid">
+        <figure class="gallery-large"><img src="assets/images/portrait.webp" alt="Lester y Jhomayri se miran abrazados" loading="lazy"></figure>
+        <figure><img src="assets/images/garden.webp" alt="Lester y Jhomayri en un jardín" loading="lazy"></figure>
+        <figure><img src="assets/images/embrace.webp" alt="Los novios sonríen juntos" loading="lazy"></figure>
+        <figure><img src="assets/images/formal.webp" alt="Los novios vestidos de gala" loading="lazy"></figure>
+      </div>
+    </section>
+
+    <section class="details paper-section" id="detalles">
+      <p class="eyebrow dark">26 DE DICIEMBRE DE 2026</p>
+      <h2 class="serif-heading">Nuestro gran día</h2>
+      <div class="detail-grid">
+        <article class="detail-card">
+          <img src="assets/images/church.webp" alt="" loading="lazy">
+          <span class="detail-index">01 / CEREMONIA</span>
+          <h3>Santos Ángeles<br>Custodios</h3>
+          <p>Santiago de los Caballeros</p>
+          <p class="detail-time">4:00 pm</p>
+          <a id="ceremonyMap" class="text-link" target="_blank" rel="noopener noreferrer">Ver ubicación <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="detail-card">
+          <img src="assets/images/gazebo.webp" alt="" loading="lazy">
+          <span class="detail-index">02 / RECEPCIÓN</span>
+          <h3>Camino de<br>Santiago Eventos</h3>
+          <p>Santiago de los Caballeros</p>
+          <p class="detail-time">Después de la ceremonia</p>
+          <a id="receptionMap" class="text-link" target="_blank" rel="noopener noreferrer">Ver ubicación <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="dress-section">
+      <div class="dress-photo" role="img" aria-label="Lester y Jhomayri vestidos de gala"></div>
+      <div class="dress-copy">
+        <p class="eyebrow">UNA NOCHE ESPECIAL</p>
+        <h2>Código de<br>vestimenta</h2>
+        <div class="dress-swatch" aria-hidden="true"></div>
+        <p class="dress-code">Formal · All Black</p>
+        <p>«Te invitamos a brillar con elegancia: Total Black».</p>
+      </div>
+    </section>
+
+    <section class="gifts paper-section">
+      <p class="eyebrow dark">CON CARIÑO</p>
+      <h2 class="script-title">Lista de regalos</h2>
+      <p>Tu cariño es nuestro mejor regalo. Si quieres contribuir con un detalle, puedes consultarnos de manera privada.</p>
+      <div class="ornament"><span></span>✦<span></span></div>
+    </section>
+
+    <section id="confirmacion" class="rsvp-section">
+      <img src="assets/images/botanical.webp" alt="" class="rsvp-floral" loading="lazy">
+      <p class="eyebrow">QUEREMOS CELEBRAR CONTIGO</p>
+      <h2>Confirma tu<br><em>asistencia</em></h2>
+      <p class="rsvp-intro">Te pedimos confirmar antes del <strong>20 de noviembre de 2026</strong>.</p>
+      <div id="guestInfo" class="guest-info" hidden></div>
+      <a id="rsvpButton" class="primary-button light" target="_blank" rel="noopener noreferrer" hidden>Confirmar asistencia <span aria-hidden="true">↗</span></a>
+      <p id="rsvpPending" class="rsvp-pending">El enlace de confirmación estará disponible próximamente.</p>
+      <p class="rsvp-note">Si recibiste un código familiar, consérvalo para tu confirmación. La cantidad mostrada en esta página es informativa y se verifica al confirmar.</p>
+    </section>
+
+    <footer class="footer paper-section">
+      <p class="eyebrow dark">ANSIAMOS VERTE MIENTRAS CAMINAMOS AL ALTAR</p>
+      <h2>Lester <span>&</span> Jhomayri</h2>
+      <p>26 de diciembre de 2026 · Santiago de los Caballeros</p>
+      <span class="footer-monogram">L & J</span>
+    </footer>
+  </main>
+
+  <div id="musicControls" class="music-controls" hidden>
+    <button id="musicToggle" type="button" aria-label="Pausar música" title="Pausar música">❚❚</button>
+    <button id="muteToggle" type="button" aria-label="Silenciar música" title="Silenciar música">♫</button>
+  </div>
+  <audio id="music" preload="none" loop></audio>
+  <div id="announcer" class="sr-only" aria-live="polite"></div>
+</body>
+</html>
