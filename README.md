@@ -12,7 +12,7 @@ Desde esta carpeta, ejecuta `python3 -m http.server 8000` y abre `http://localho
 2. **Formulario:** crea y publica un Google Form, copia el vínculo público de respuesta en `formUrl` dentro de `config.js`. Hasta entonces se muestra un aviso elegante en vez de un botón roto. Si quieres que el código familiar y el número de invitados viajen a campos prellenados, obtén los identificadores `entry.123…` mediante Google Forms > menú de tres puntos > Obtener enlace prellenado y configúralos en `formFields`.
 3. **Enlaces familiares:** `https://lestertavarezr.github.io/L-JL-J/?code=FAM001&guests=5` muestra el código y el cupo indicado y, si configuras sus campos, los transmite al formulario. Un enlace con `guests=1` indica una persona. **Cualquiera puede cambiar estos parámetros.** No son un control de acceso. Mantén la lista privada fuera de GitHub y valida código/cupo con Google Sheets + Apps Script u otra solución externa antes de aceptar respuestas. Google Forms por sí solo no puede imponer cupos individuales seguros.
 4. **Regalos:** los números de cuenta y de identificación del PDF se excluyeron por privacidad. Comparte esos datos directamente con quien los solicite.
-5. **Direcciones:** los botones abren búsquedas de Google Maps por el nombre de cada lugar; comprueba el resultado concreto antes de distribuir el enlace. La hora publicada para la recepción, «Después de la ceremonia», es una indicación editorial y no una hora confirmada.
+5. **Direcciones:** los botones abren búsquedas de Google Maps por el nombre de cada lugar; comprueba el resultado concreto antes de distribuir el enlace. El PDF no especifica una hora para la recepción.
 
 ## Publicación gratuita en GitHub Pages
 
